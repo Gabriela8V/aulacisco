@@ -1,0 +1,19 @@
+inable
+  configure terminal
+  hostname sw-03 ou sw-01
+  service password-encryption
+  no ip domain-lookuo
+  banner motd #AVISO: acesso autorizado somente para funcionario#
+  enable secret 123@senac
+  username senac secret 123@senac 
+  username tatuape password 123@senac 
+  Line console 0
+   login local
+   logging synchronous 
+   password 123@senac
+   exc-timeout 5 30
+   exit
+exit
+   copy running-config startup-config 
+disable
+exit
