@@ -1,0 +1,6 @@
+1-Hostname (nome do pc)
+2-endereço de ipv4 ou ipv6
+3-endereço fisico (mac addres)
+-------------------------------
+4-SOHO- ISR
+5-DHCP
